@@ -18,7 +18,7 @@ namespace Assignment18Interface
 
             Smartphone smartphone = new Smartphone();
             Console.WriteLine("Is the smartphone connected?\t" + smartphone.Connect());
-            Console.WriteLine("Time taken to charge the laptop is" + smartphone.charge(50) + "min");
+            Console.WriteLine("Time taken to charge the laptop is" + smartphone.charge(100) + "min");
             Console.WriteLine("Laptop details" + smartphone.display());
 
         }

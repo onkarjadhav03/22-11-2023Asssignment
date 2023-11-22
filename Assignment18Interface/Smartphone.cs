@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment18Interface
 {
-    public class Smartphone
+    public class Smartphone : IConnactable, IRechargable, IDisplable
     {
 
         bool isconnected;
